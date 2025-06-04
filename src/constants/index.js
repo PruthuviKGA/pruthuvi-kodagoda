@@ -34,7 +34,7 @@ export const EXPERIENCES2 = {
     year: "Jan 2024 - Aug 2024",
     role: "Software Engineer Intern",
     company: "Xeptagon (Pvt) Ltd",
-    description: `Contributed to 4+ projects involving UI/UX design, frontend development, backend development, RESTful API integration, and unit testing for backend services based on client requirements. Specific project details are confidential due to company policy. Demonstrated strong technical skills, adaptability, and teamwork throughout the period.`,
+    description: `Contributed to 4+ projects involving UI/UX design, frontend development, backend development, REST API integration, and unit testing for backend services based on client requirements. Specific project details are confidential due to company policy. Demonstrated strong technical skills, adaptability, and teamwork throughout the period.`,
     technologies: ["ReactTS", "SCSS", "NestJS", "PostgreSQL", "SharePoint (SPFx) Framework", "Figma", "Docker", "Jira", "Bootstrap", "Ant Design"]
 };
 

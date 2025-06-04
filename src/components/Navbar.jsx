@@ -10,7 +10,7 @@ const Navbar = () => {
   <nav className="mb-5 flex item-center justify-between py-6"> 
     <div className="flex flex-shrink-0 items-center">
         {/* <img className="mx-2 w-10" src={logo} alt="logo"/> */}
-        <div className="mx-2 text-2xl font-bold text-white">
+        <div className="mx-2 text-2xl font-bold">
           &lt; PK /&gt;
         </div>
     </div>

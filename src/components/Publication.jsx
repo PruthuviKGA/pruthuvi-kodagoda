@@ -17,7 +17,7 @@ const Publication = () => {
             whileInView={{opacity: 1, x: 0}}
             initial={{opacity: 0, x: -100}}
             transition={{duration:1 }}
-            className="w-full lg:w-1/4">
+            className="w-full lg:w-1/4 flex flex-col items-center">
                 <img src={publication.image} width={150} height={150} alt={publication.title} className="mb-6 rounded"/>
             </motion.div>
             <motion.div 
@@ -25,8 +25,7 @@ const Publication = () => {
             initial={{opacity: 0, x: 100}}
             transition={{duration:1 }}
             className="w-full max-w-xl lg:w-3/4">
-            <h6 className="mb-2 font-semibold">{publication.title} -{" "}
-                <span className="text-sm text-purple-100">{publication.conference}</span></h6>
+            <h6 className="mb-2 font-semibold">{publication.title}</h6>
             <p className="mb-6 text-sm text-neutral-400">Authors: {publication.authors}</p>
             <p className="mb-4 text-neutral-400">{publication.description}</p>
             </motion.div>

@@ -26,8 +26,7 @@ const Experience = () => {
                 initial={{ opacity: 0, x: 100 }}
                 transition={{ duration: 0.5 }}
                 className="w-full lg:w-1/2 lg:p-8">
-                <h6 className="mb-2 font-semibold">{EXPERIENCES2.role} -{" "}
-                <span className="text-sm text-purple-100">{EXPERIENCES2.company}</span></h6>
+                <h6 className="mb-2 font-semibold">{EXPERIENCES2.role} - {EXPERIENCES2.company}</h6>
                 <p className="mb-6 text-sm text-neutral-400">{EXPERIENCES2.year}</p>
                 <p className="mb-4 text-neutral-400">{EXPERIENCES2.description}</p>
                 <div className="flex flex-wrap gap-2 mt-4">
