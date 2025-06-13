@@ -1,8 +1,9 @@
 import project1 from "../assets/projects/project1.jpg";
-import project2 from "../assets/projects/project2.jpg";
+import project2 from "../assets/projects/project2.png";
 import project3 from "../assets/projects/project3.jpg";
-import project4 from "../assets/projects/project4.png";
+import project4 from "../assets/projects/project4.jpg";
 import project5 from "../assets/projects/project5.jpg";
+import project6 from "../assets/projects/project6.jpg";
 import education1 from "../assets/education/uom_logo.png";
 import education2 from "../assets/education/kcc_logo.png";
 import Publication1 from "../assets/publication/publication1.jpg";
@@ -71,8 +72,17 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
+    title: "Online Car Rental System",
+    image: project6,
+    description:
+      "Built RESTful API for car rental management with secure user registration, role-based access, and rental workflows. Integrated JWT authentication and authorization for secure session handling and endpoint access control. Containerized backend and MSSQL server with Docker for streamlined development and deployment.",
+    role: " Backend Developer",
+    technologies: [".NET Core", "MSSQL", "Entity Framework Core", "JWT", "Docker", "Postman"],
+    link:"https://github.com/PruthuviKGA/online-car-rental-system",
+  },
+  {
     title: "Automated Step-By-Step Visual Performance Guide Generation from Sinhala Demonstration Videos",
-    image: project1,
+    image: project5,
     description:
       "A system that automatically creates visual performance guides from Sinhala demonstration videos, letting viewers to swiftly understand crucial information using synced text and images. ",
     role: " Visual Content Extraction and Alignment (Responsible for Module 3)",
@@ -81,7 +91,7 @@ export const PROJECTS = [
   },
   {
     title: "Wine Quality Prediction System",
-    image: project2,
+    image: project4,
     description:
       "Developed a machine learning model to predict wine quality (rated 1–10) based on physicochemical properties and wine type (red/white). Performed data preprocessing, feature engineering, and applied cross-validation with multiple algorithms. Achieved 91.69% accuracy using Random Forest. Implemented test predictions and visual evaluation metrics like confusion matrix for model validation.",
     role: " ML Developer",
@@ -99,16 +109,16 @@ export const PROJECTS = [
   },
   {
     title: "Procurement Workflow Management System",
-    image: project4,
+    image: project2,
     description:
       "Contributed to the development of a comprehensive Procurement Management System by leading frontend implementation with modern, user-friendly interfaces and seamless functionality. Established 15+ key API integrations to enable real-time data synchronization between frontend and backend. Supported backend development by designing optimized database models, controllers, and services to enhance overall application performance.",
     role: "Full Stack Developer",
-    technologies: ["ReactJS", ".NET Core", "MSSQL", "Material UI"],
+    technologies: ["ReactJS", ".NET Core", "MSSQL", "Entity Framework Core", "Material UI"],
     link:"https://github.com/PruthuviKGA/ProcurementManagementSystem",
   },
   {
     title: "Jam Cheese Applicator (Microcontroller Based)",
-    image: project5,
+    image: project1,
     description:
       "Designed a system to evenly apply spreads like butter, jam, or cheese on bread slices, detecting empty spread or bread containers and alerting the user. Developed to enhance real-world problem-solving skills through an automation challenge.",
     role: "System Designer & Implementation Engineer",
