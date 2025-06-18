@@ -75,9 +75,9 @@ export const PROJECTS = [
     title: "Online Car Rental System",
     image: project6,
     description:
-      "Built RESTful API for car rental management with secure user registration, role-based access, and rental workflows. Integrated JWT authentication and authorization for secure session handling and endpoint access control. Containerized backend and MSSQL server with Docker for streamlined development and deployment.",
+      "Developed a full-featured backend for an online car rental system using .NET Core, MSSQL, and JWT authentication. The system supports admin and user roles with secure login, car listings, rental request workflows, rental tracking, feedback, and maintenance management. RESTful APIs were designed with role-based access control, tested via Postman, and documented using Swagger. The entire application, including the MSSQL database, was containerized with Docker for streamlined development and deployment.",
     role: " Backend Developer",
-    technologies: [".NET Core", "MSSQL", "Entity Framework Core", "JWT", "Docker", "Postman"],
+    technologies: [".NET Core", "MSSQL", "Entity Framework Core", "JWT", "Docker", "Swagger"],
     link:"https://github.com/PruthuviKGA/online-car-rental-system",
   },
   {
