@@ -1,5 +1,5 @@
 import { HERO_CONTENT } from "../constants";
-import profilePic from "../assets/pruthuviKodagodaProfile2.png";
+import profilePic from "../assets/pruthuviKodagodaProfile2.jpg";
 import resume from "../assets/pruthuviKodagodaResume.pdf";
 // eslint-disable-next-line no-unused-vars
 import { motion } from "framer-motion";
