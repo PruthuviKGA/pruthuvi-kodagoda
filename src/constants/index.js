@@ -19,7 +19,10 @@ export const EDUCATION = [
     year: "2021 - Present",
     description:
       "Bachelor Of Science in Information Technnology <br /> Current GPA: 3.52",
-    technologies: ["Major - Full Stack Development", "Minor - Machine Learning"],
+    technologies: [
+      "Major - Full Stack Development",
+      "Minor - Machine Learning",
+    ],
   },
   {
     title: "C. W. W. Kannangara Central College Matugama",
@@ -32,11 +35,22 @@ export const EDUCATION = [
 ];
 
 export const EXPERIENCES2 = {
-    year: "Jan 2024 - Aug 2024",
-    role: "Software Engineer Intern",
-    company: "Xeptagon (Pvt) Ltd",
-    description: `Contributed to 4+ projects involving UI/UX design, frontend development, backend development, REST API integration, and unit testing for backend services based on client requirements. Specific project details are confidential due to company policy. Demonstrated strong technical skills, adaptability, and teamwork throughout the period.`,
-    technologies: ["ReactTS", "SCSS", "NestJS", "PostgreSQL", "SharePoint (SPFx) Framework", "Figma", "Docker", "Jira", "Bootstrap", "Ant Design"]
+  year: "Jan 2024 - Aug 2024",
+  role: "Software Engineer Intern",
+  company: "Xeptagon (Pvt) Ltd",
+  description: `Contributed to 4+ projects involving UI/UX design, frontend development, backend development, REST API integration, and unit testing for backend services based on client requirements. Specific project details are confidential due to company policy. Demonstrated strong technical skills, adaptability, and teamwork throughout the period.`,
+  technologies: [
+    "ReactTS",
+    "SCSS",
+    "NestJS",
+    "PostgreSQL",
+    "SharePoint (SPFx) Framework",
+    "Figma",
+    "Docker",
+    "Jira",
+    "Bootstrap",
+    "Ant Design",
+  ],
 };
 
 export const EXPERIENCES = [
@@ -77,17 +91,25 @@ export const PROJECTS = [
     description:
       "Developed a full-featured backend for an online car rental system using .NET Core, MSSQL, and JWT authentication. The system supports admin and user roles with secure login, car listings, rental request workflows, rental tracking, feedback, and maintenance management. RESTful APIs were designed with role-based access control, tested via Postman, and documented using Swagger. The entire application, including the MSSQL database, was containerized with Docker for streamlined development and deployment.",
     role: " Backend Developer",
-    technologies: [".NET Core", "MSSQL", "Entity Framework Core", "JWT", "Docker", "Swagger"],
-    link:"https://github.com/PruthuviKGA/online-car-rental-system",
+    technologies: [
+      ".NET Core",
+      "MSSQL",
+      "Entity Framework Core",
+      "JWT",
+      "Docker",
+      "Swagger",
+    ],
+    link: "https://github.com/PruthuviKGA/online-car-rental-system",
   },
   {
-    title: "Automated Step-By-Step Visual Performance Guide Generation from Sinhala Demonstration Videos",
+    title:
+      "Automated Step-By-Step Visual Performance Guide Generation from Sinhala Demonstration Videos",
     image: project5,
     description:
-      "A system that automatically creates visual performance guides from Sinhala demonstration videos, letting viewers to swiftly understand crucial information using synced text and images. ",
+      "Developed a fully automated system that generates stepwise visual guides from Sinhala cooking videos. Using deep learning models (YOLO) and computer vision, it detects cooking tools and ingredients to segment videos into clear steps. The system produces simple English instructions aligned with video segments, improving accessibility and understanding. I led the visual content extraction and alignment, focusing on accurate action and ingredient detection. This project enhanced the clarity and usability of instructional videos.",
     role: " Visual Content Extraction and Alignment (Responsible for Module 3)",
-    technologies: ["Python", "YOLO", "OpenCV"],
-    link:"https://github.com/shakila2030/Automated-Step-By-Step-Visual-Performance-Guide-Generation-from-Sinhala-Demonstration-Videos",
+    technologies: ["Python", "YOLO", "OpenCV", "Roboflow"],
+    link: "https://github.com/shakila2030/Automated-Step-By-Step-Visual-Performance-Guide-Generation-from-Sinhala-Demonstration-Videos",
   },
   {
     title: "Wine Quality Prediction System",
@@ -96,7 +118,7 @@ export const PROJECTS = [
       "Developed a machine learning model to predict wine quality (rated 1–10) based on physicochemical properties and wine type (red/white). Performed data preprocessing, feature engineering, and applied cross-validation with multiple algorithms. Achieved 91.69% accuracy using Random Forest. Implemented test predictions and visual evaluation metrics like confusion matrix for model validation.",
     role: " ML Developer",
     technologies: ["Python", "Scikit-learn", "Pandas", "NumPy", "Matplotlib"],
-    link:"https://github.com/PruthuviKGA/wine-quality-prediction-system",
+    link: "https://github.com/PruthuviKGA/wine-quality-prediction-system",
   },
   {
     title: "Library Management System",
@@ -105,7 +127,7 @@ export const PROJECTS = [
       "Designed and maintained 50+ automated test suites for website UI and backend APIs, ensuring functionality, performance, and security with continuous reporting via GitHub Actions.",
     role: " Conducted backend API Testing & Generated reports using CI/CD pipeline",
     technologies: ["Postman", "GitHub Actions"],
-    link:"https://github.com/PruthuviKGA/Library-Management-System",
+    link: "https://github.com/PruthuviKGA/Library-Management-System",
   },
   {
     title: "Procurement Workflow Management System",
@@ -113,8 +135,14 @@ export const PROJECTS = [
     description:
       "Contributed to the development of a comprehensive Procurement Management System by leading frontend implementation with modern, user-friendly interfaces and seamless functionality. Established 15+ key API integrations to enable real-time data synchronization between frontend and backend. Supported backend development by designing optimized database models, controllers, and services to enhance overall application performance.",
     role: "Full Stack Developer",
-    technologies: ["ReactJS", ".NET Core", "MSSQL", "Entity Framework Core", "Material UI"],
-    link:"https://github.com/PruthuviKGA/ProcurementManagementSystem",
+    technologies: [
+      "ReactJS",
+      ".NET Core",
+      "MSSQL",
+      "Entity Framework Core",
+      "Material UI",
+    ],
+    link: "https://github.com/PruthuviKGA/ProcurementManagementSystem",
   },
   {
     title: "Jam Cheese Applicator (Microcontroller Based)",
@@ -123,7 +151,7 @@ export const PROJECTS = [
       "Designed a system to evenly apply spreads like butter, jam, or cheese on bread slices, detecting empty spread or bread containers and alerting the user. Developed to enhance real-world problem-solving skills through an automation challenge.",
     role: "System Designer & Implementation Engineer",
     technologies: ["C", "Atmel Studio", "Proteus Simulation", "KiCad"],
-    link:"https://github.com/PruthuviKGA/Jam-Cheese-Applicator",
+    link: "https://github.com/PruthuviKGA/Jam-Cheese-Applicator",
   },
 ];
 
